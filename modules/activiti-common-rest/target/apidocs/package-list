@@ -1,0 +1,5 @@
+org.activiti.rest.common.api
+org.activiti.rest.common.application
+org.activiti.rest.common.filter
+org.activiti.rest.common.servlet
+org.activiti.rest.common.util

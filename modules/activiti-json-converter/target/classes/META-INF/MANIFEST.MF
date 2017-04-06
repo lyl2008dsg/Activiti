@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.json.converter
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1486709955839
+Bundle-Vendor: Alfresco
+Import-Package: com.fasterxml.jackson.databind,com.fasterxml.jackson.d
+ atabind.node,math.geom2d,math.geom2d.conic,math.geom2d.curve,math.geo
+ m2d.line,math.geom2d.polygon,org.activiti.bpmn.model;version="[5.22,5
+ .23)",org.activiti.osgi;resolution:=optional,org.apache.commons.lang3
+ ;version="[3.3,4)",org.joda.time;version="[2.6,3)",org.joda.time.form
+ at;version="[2.6,3)",org.slf4j;version="[1.7,2)"
+Tool: Bnd-0.0.357
+Export-Package: org.activiti.editor.constants;version="5.22.0",org.act
+ iviti.editor.language.json.converter.util;uses:="com.fasterxml.jackso
+ n.databind,org.activiti.editor.constants";version="5.22.0",org.activi
+ ti.editor.language.json.converter;uses:="com.fasterxml.jackson.databi
+ nd,com.fasterxml.jackson.databind.node,org.activiti.bpmn.model,org.ac
+ tiviti.editor.constants,org.slf4j,org.apache.commons.lang3,org.activi
+ ti.editor.language.json.converter.util,math.geom2d,math.geom2d.polygo
+ n,math.geom2d.line,math.geom2d.conic,math.geom2d.curve,org.joda.time,
+ org.joda.time.format";version="5.22.0"
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - JSON Converter
+Created-By: 1.8.0_65 (Oracle Corporation)
+

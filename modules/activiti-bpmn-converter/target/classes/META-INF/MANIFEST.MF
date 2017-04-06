@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.bpmn.converter
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1490173890743
+Bundle-Vendor: Alfresco
+Import-Package: javax.xml,javax.xml.namespace,javax.xml.stream,javax.x
+ ml.transform,javax.xml.transform.stax,javax.xml.transform.stream,java
+ x.xml.validation,org.activiti.bpmn.constants;version="[5.22,5.23)",or
+ g.activiti.bpmn.converter;version="[5.22,5.23)",org.activiti.bpmn.con
+ verter.alfresco;version="[5.22,5.23)",org.activiti.bpmn.converter.chi
+ ld;version="[5.22,5.23)",org.activiti.bpmn.converter.export;version="
+ [5.22,5.23)",org.activiti.bpmn.converter.parser;version="[5.22,5.23)"
+ ,org.activiti.bpmn.converter.util;version="[5.22,5.23)",org.activiti.
+ bpmn.model;version="[5.22,5.23)",org.activiti.bpmn.model.alfresco;ver
+ sion="[5.22,5.23)",org.activiti.osgi;resolution:=optional,org.apache.
+ commons.lang3;version="[3.3,4)",org.slf4j;version="[1.7,2)",org.xml.s
+ ax
+Tool: Bnd-0.0.357
+Export-Package: org.activiti.bpmn.converter.alfresco;uses:="org.activi
+ ti.bpmn.model.alfresco,org.activiti.bpmn.constants,org.activiti.bpmn.
+ converter,org.activiti.bpmn.model";version="5.22.0",org.activiti.bpmn
+ .converter.util;uses:="org.activiti.bpmn.constants,javax.xml.stream,o
+ rg.apache.commons.lang3,org.activiti.bpmn.converter.child,org.activit
+ i.bpmn.model";version="5.22.0",org.activiti.bpmn.converter.export;use
+ s:="org.activiti.bpmn.constants,javax.xml.stream,org.activiti.bpmn.co
+ nverter.util,org.apache.commons.lang3,org.activiti.bpmn.model";versio
+ n="5.22.0",org.activiti.bpmn.converter.parser;uses:="org.activiti.bpm
+ n.constants,org.activiti.bpmn.converter.util,javax.xml.stream,org.act
+ iviti.bpmn.model,org.apache.commons.lang3,org.activiti.bpmn.converter
+ .child,org.slf4j,org.activiti.bpmn.converter,org.activiti.bpmn.conver
+ ter.export";version="5.22.0",org.activiti.bpmn.converter;uses:="org.a
+ ctiviti.bpmn.constants,org.activiti.bpmn.converter.util,javax.xml.str
+ eam,org.apache.commons.lang3,org.activiti.bpmn.model,org.slf4j,org.ac
+ tiviti.bpmn.converter.export,org.activiti.bpmn.converter.child,javax.
+ xml,javax.xml.validation,org.activiti.bpmn.converter.parser,javax.xml
+ .transform.stax,org.activiti.bpmn.exceptions,javax.xml.transform,org.
+ activiti.bpmn.converter.alfresco,javax.xml.transform.stream,org.xml.s
+ ax,javax.xml.namespace,org.activiti.bpmn.model.alfresco";version="5.2
+ 2.0",org.activiti.bpmn.converter.child;uses:="org.activiti.bpmn.const
+ ants,org.activiti.bpmn.converter.util,javax.xml.stream,org.apache.com
+ mons.lang3,org.activiti.bpmn.model,org.activiti.bpmn.exceptions,org.s
+ lf4j";version="5.22.0",org.activiti.bpmn.constants;version="5.22.0",o
+ rg.activiti.bpmn.exceptions;version="5.22.0"
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - BPMN Converter
+Created-By: 1.8.0_65 (Oracle Corporation)
+

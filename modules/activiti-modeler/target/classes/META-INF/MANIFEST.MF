@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.modeler
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1486710914327
+Bundle-Vendor: Alfresco
+Import-Package: com.fasterxml.jackson.databind,com.fasterxml.jackson.d
+ atabind.node,org.activiti.editor.constants;version="[5.22,5.23)",org.
+ activiti.engine;version="[5.22,5.23)",org.activiti.engine.repository;
+ version="[5.22,5.23)",org.activiti.osgi;resolution:=optional,org.apac
+ he.batik.transcoder,org.apache.batik.transcoder.image,org.apache.comm
+ ons.io;version="[2.0,3)",org.apache.commons.lang3;version="[3.3,4)",o
+ rg.slf4j;version="[1.7,2)",org.springframework.beans.factory.annotati
+ on,org.springframework.http,org.springframework.util,org.springframew
+ ork.web.bind.annotation
+Tool: Bnd-0.0.357
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - Modeler
+Created-By: 1.8.0_65 (Oracle Corporation)
+

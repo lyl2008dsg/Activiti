@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.rest.diagram
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1486710916179
+Bundle-Vendor: Alfresco
+Import-Package: com.fasterxml.jackson.databind,com.fasterxml.jackson.d
+ atabind.node,org.activiti.engine;version="[5.22,5.23)",org.activiti.e
+ ngine.history;version="[5.22,5.23)",org.activiti.engine.impl.bpmn.beh
+ avior;version="[5.22,5.23)",org.activiti.engine.impl.bpmn.parser;vers
+ ion="[5.22,5.23)",org.activiti.engine.impl.jobexecutor;version="[5.22
+ ,5.23)",org.activiti.engine.impl.persistence.entity;version="[5.22,5.
+ 23)",org.activiti.engine.impl.pvm;version="[5.22,5.23)",org.activiti.
+ engine.impl.pvm.delegate;version="[5.22,5.23)",org.activiti.engine.im
+ pl.pvm.process;version="[5.22,5.23)",org.activiti.engine.query;versio
+ n="[5.22,5.23)",org.activiti.engine.repository;version="[5.22,5.23)",
+ org.activiti.engine.runtime;version="[5.22,5.23)",org.activiti.osgi;r
+ esolution:=optional,org.activiti.rest.diagram.services;version="[5.22
+ ,5.23)",org.apache.commons.lang3;version="[3.3,4)",org.springframewor
+ k.beans.factory.annotation,org.springframework.web.bind.annotation
+Tool: Bnd-0.0.357
+Export-Package: org.activiti.rest.diagram.services;uses:="org.activiti
+ .engine.repository,org.activiti.engine,org.activiti.engine.query,org.
+ activiti.engine.impl.persistence.entity,org.activiti.engine.impl.jobe
+ xecutor,org.activiti.engine.runtime,org.activiti.engine.history,org.a
+ ctiviti.engine.impl.bpmn.behavior,com.fasterxml.jackson.databind.node
+ ,org.activiti.engine.impl.pvm.delegate,org.activiti.engine.impl.pvm,o
+ rg.apache.commons.lang3,org.springframework.beans.factory.annotation,
+ org.activiti.engine.impl.pvm.process,com.fasterxml.jackson.databind,o
+ rg.activiti.engine.impl.bpmn.parser,org.springframework.web.bind.anno
+ tation";version="5.22.0"
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - Diagram - REST
+Created-By: 1.8.0_65 (Oracle Corporation)
+

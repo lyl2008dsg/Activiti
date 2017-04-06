@@ -1,0 +1,4 @@
+org.activiti.spring.boot
+org.activiti.spring.boot.actuate.endpoint
+org.activiti.spring.integration
+org.activiti.spring.security

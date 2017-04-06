@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.simple.workflow
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1486709983541
+Bundle-Vendor: Alfresco
+Import-Package: com.fasterxml.jackson.annotation;version="[2.2,3)",com
+ .fasterxml.jackson.databind,com.fasterxml.jackson.databind.annotation
+ ,org.activiti.bpmn;version="[5.22,5.23)",org.activiti.bpmn.converter;
+ version="[5.22,5.23)",org.activiti.bpmn.model;version="[5.22,5.23)",o
+ rg.activiti.osgi;resolution:=optional,org.apache.commons.lang3;versio
+ n="[3.3,4)"
+Tool: Bnd-0.0.357
+Export-Package: org.activiti.workflow.simple.exception;version="5.22.0
+ ",org.activiti.workflow.simple.util;uses:="org.activiti.workflow.simp
+ le.converter,org.activiti.bpmn.model";version="5.22.0",org.activiti.w
+ orkflow.simple.converter.step;uses:="org.apache.commons.lang3,org.act
+ iviti.workflow.simple.converter,org.activiti.workflow.simple.definiti
+ on.form,org.activiti.workflow.simple.definition,org.activiti.bpmn.mod
+ el,org.activiti.workflow.simple.util";version="5.22.0",org.activiti.w
+ orkflow.simple.converter.listener;uses:="org.activiti.bpmn.model,org.
+ activiti.workflow.simple.converter,org.activiti.workflow.simple.defin
+ ition.form,org.activiti.workflow.simple.definition";version="5.22.0",
+ org.activiti.workflow.simple.converter;uses:="org.activiti.workflow.s
+ imple.exception,org.activiti.workflow.simple.converter.step,org.activ
+ iti.workflow.simple.converter.listener,org.activiti.bpmn,org.activiti
+ .bpmn.converter,org.activiti.workflow.simple.definition,org.activiti.
+ bpmn.model";version="5.22.0",org.activiti.workflow.simple.definition.
+ form;uses:="org.activiti.workflow.simple.exception,com.fasterxml.jack
+ son.annotation,com.fasterxml.jackson.databind.annotation";version="5.
+ 22.0",org.activiti.workflow.simple.converter.json;uses:="org.activiti
+ .workflow.simple.exception,org.activiti.workflow.simple.definition.fo
+ rm,com.fasterxml.jackson.databind,org.activiti.workflow.simple.defini
+ tion";version="5.22.0",org.activiti.workflow.simple.definition;uses:=
+ "com.fasterxml.jackson.databind.annotation,org.activiti.workflow.simp
+ le.exception,com.fasterxml.jackson.annotation,org.activiti.workflow.s
+ imple.definition.form";version="5.22.0"
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - Simple Workflow
+Created-By: 1.8.0_65 (Oracle Corporation)
+

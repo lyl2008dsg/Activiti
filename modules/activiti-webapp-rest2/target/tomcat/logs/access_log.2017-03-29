@@ -1,0 +1,4 @@
+127.0.0.1 - - [29/Mar/2017:16:04:03 +0800] "GET /activiti-rest/service/repository/deployments-trace/7702 HTTP/1.1" 401 1061 http-bio-9090-exec-1 81
+127.0.0.1 - - [29/Mar/2017:16:04:17 +0800] "GET /activiti-rest/service/repository/deployments-trace/7702 HTTP/1.1" 200 89828 http-bio-9090-exec-2 6554
+127.0.0.1 - - [29/Mar/2017:16:04:17 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-3 0
+127.0.0.1 - - [29/Mar/2017:16:04:17 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0

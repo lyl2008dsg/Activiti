@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="activiti-webapp-explorer2:war">
+    <output-path>$PROJECT_DIR$/modules/activiti-webapp-explorer2/target</output-path>
+    <root id="archive" name="activiti-webapp-explorer2-5.22.0.war">
+      <element id="artifact" artifact-name="activiti-webapp-explorer2:war exploded" />
+    </root>
+  </artifact>
+</component>

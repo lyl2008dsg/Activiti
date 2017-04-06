@@ -1,0 +1,170 @@
+{
+  "groups": [
+    {
+      "sourceType": "org.activiti.spring.boot.actuate.endpoint.ProcessEngineEndpoint",
+      "name": "endpoints.activiti",
+      "type": "org.activiti.spring.boot.actuate.endpoint.ProcessEngineEndpoint"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti",
+      "type": "org.activiti.spring.boot.ActivitiProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.activiti.spring.boot.actuate.endpoint.ProcessEngineEndpoint",
+      "name": "endpoints.activiti.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.actuate.endpoint.ProcessEngineEndpoint",
+      "name": "endpoints.activiti.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.actuate.endpoint.ProcessEngineEndpoint",
+      "name": "endpoints.activiti.sensitive",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": true,
+      "name": "spring.activiti.async-executor-activate",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": true,
+      "name": "spring.activiti.async-executor-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": true,
+      "name": "spring.activiti.check-process-definitions",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.custom-mybatis-mappers",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.custom-mybatis-xmlmappers",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.database-schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": "true",
+      "name": "spring.activiti.database-schema-update",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.db-history-used",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.db-identity-used",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.deployment-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.history-level",
+      "type": "org.activiti.engine.impl.history.HistoryLevel"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": false,
+      "name": "spring.activiti.job-executor-activate",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": true,
+      "name": "spring.activiti.jpa-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.mail-server-default-from",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": "localhost",
+      "name": "spring.activiti.mail-server-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.mail-server-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": 1025,
+      "name": "spring.activiti.mail-server-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": false,
+      "name": "spring.activiti.mail-server-use-ssl",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": false,
+      "name": "spring.activiti.mail-server-use-tls",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.mail-server-user-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": "classpath:/processes/",
+      "name": "spring.activiti.process-definition-location-prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "name": "spring.activiti.process-definition-location-suffixes",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": false,
+      "name": "spring.activiti.rest-api-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": "/api/*",
+      "name": "spring.activiti.rest-api-mapping",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.activiti.spring.boot.ActivitiProperties",
+      "defaultValue": "activitiRestApi",
+      "name": "spring.activiti.rest-api-servlet-name",
+      "type": "java.lang.String"
+    }
+  ]
+}

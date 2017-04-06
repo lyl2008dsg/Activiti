@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.cxf
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1486711719956
+Bundle-Vendor: Alfresco
+Import-Package: com.ibm.wsdl.extensions.schema,com.sun.codemodel;versi
+ on="[2.2,3)",com.sun.tools.xjc;version="[2.2,3)",com.sun.tools.xjc.ap
+ i;version="[2.2,3)",javax.wsdl,javax.wsdl.extensions.schema,javax.wsd
+ l.extensions.soap,javax.wsdl.factory,javax.wsdl.xml,javax.xml.bind,ja
+ vax.xml.namespace,javax.xml.parsers,org.activiti.bpmn.model;version="
+ [5.22,5.23)",org.activiti.engine;version="[5.22,5.23)",org.activiti.e
+ ngine.delegate;version="[5.22,5.23)",org.activiti.engine.impl.bpmn.da
+ ta;version="[5.22,5.23)",org.activiti.engine.impl.bpmn.parser;version
+ ="[5.22,5.23)",org.activiti.engine.impl.bpmn.webservice;version="[5.2
+ 2,5.23)",org.activiti.engine.impl.util;version="[5.22,5.23)",org.acti
+ viti.osgi;resolution:=optional,org.apache.cxf;version="[2.6,3)",org.a
+ pache.cxf.common.i18n;version="[2.6,3)",org.apache.cxf.endpoint;versi
+ on="[2.6,3)",org.apache.cxf.endpoint.dynamic;version="[2.6,3)",org.ap
+ ache.cxf.interceptor;version="[2.6,3)",org.apache.cxf.jaxws.endpoint.
+ dynamic;version="[2.6,3)",org.apache.cxf.message;version="[2.6,3)",or
+ g.apache.cxf.resource;version="[2.6,3)",org.apache.cxf.service.model;
+ version="[2.6,3)",org.apache.cxf.wsdl;version="[2.6,3)",org.apache.cx
+ f.wsdl11;version="[2.6,3)",org.slf4j;version="[1.7,2)",org.w3c.dom,or
+ g.xml.sax
+Tool: Bnd-0.0.357
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - Cxf
+Created-By: 1.8.0_65 (Oracle Corporation)
+

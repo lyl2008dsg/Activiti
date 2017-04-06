@@ -1,0 +1,27 @@
+Invoking Maven for the goals: [org.apache.maven.plugins:maven-javadoc-plugin:2.10.4:javadoc] with no properties
+
+M2_HOME=/usr/local/service/apache-maven-3.1.1
+MAVEN_OPTS=-Xmx1024m -Xms512m -XX:MaxPermSize=256M
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+JAVA_OPTS=null
+
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building activiti-spring-boot-starter-integration 5.22.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.4:javadoc (default-cli) @ activiti-spring-boot-starter-integration >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ activiti-spring-boot-starter-integration ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.4:javadoc (default-cli) @ activiti-spring-boot-starter-integration <<<
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.10.4:javadoc (default-cli) @ activiti-spring-boot-starter-integration ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.741s
+[INFO] Finished at: Fri Feb 10 15:15:11 CST 2017
+[INFO] Final Memory: 21M/619M
+[INFO] ------------------------------------------------------------------------

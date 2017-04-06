@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.bpmn.layout
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1490173888098
+Bundle-Vendor: Alfresco
+Import-Package: com.mxgraph.layout,com.mxgraph.layout.hierarchical,com
+ .mxgraph.model,com.mxgraph.util,com.mxgraph.view,javax.swing,org.acti
+ viti.bpmn.model;version="[5.22,5.23)",org.activiti.osgi;resolution:=o
+ ptional
+Tool: Bnd-0.0.357
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - BPMN Layout
+Created-By: 1.8.0_65 (Oracle Corporation)
+

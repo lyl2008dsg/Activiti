@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-Description: BPM and workflow engine
+Implementation-Title: Activiti
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-SymbolicName: org.activiti.rest.common
+Implementation-Version: 5.22.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1486710115586
+Bundle-Vendor: Alfresco
+Import-Package: com.fasterxml.jackson.core;version="[2.2,3)",com.faste
+ rxml.jackson.databind,javax.servlet,javax.servlet.http,org.activiti.e
+ ngine;version="[5.22,5.23)",org.activiti.engine.impl;version="[5.22,5
+ .23)",org.activiti.engine.query;version="[5.22,5.23)",org.activiti.os
+ gi;resolution:=optional,org.activiti.rest.common.api;version="[5.22,5
+ .23)",org.activiti.rest.common.application;version="[5.22,5.23)",org.
+ activiti.rest.common.filter;version="[5.22,5.23)",org.activiti.rest.c
+ ommon.servlet;version="[5.22,5.23)",org.activiti.rest.common.util;ver
+ sion="[5.22,5.23)",org.apache.commons.lang3.time;version="[3.3,4)",or
+ g.joda.time;version="[2.6,3)",org.joda.time.format;version="[2.6,3)",
+ org.slf4j;version="[1.7,2)"
+Tool: Bnd-0.0.357
+Export-Package: org.activiti.rest.common.api;uses:="org.activiti.engin
+ e.query,org.activiti.engine,org.activiti.engine.impl,org.apache.commo
+ ns.lang3.time";version="5.22.0",org.activiti.rest.common.servlet;uses
+ :="org.activiti.engine,javax.servlet,org.slf4j";version="5.22.0",org.
+ activiti.rest.common.application;version="5.22.0",org.activiti.rest.c
+ ommon.util;uses:="org.joda.time,com.fasterxml.jackson.core,com.faster
+ xml.jackson.databind,org.joda.time.format";version="5.22.0",org.activ
+ iti.rest.common.filter;uses:="javax.servlet.http";version="5.22.0"
+Bundle-Version: 5.22.0
+Bundle-Name: Activiti - REST - Common
+Created-By: 1.8.0_65 (Oracle Corporation)
+

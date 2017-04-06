@@ -1,0 +1,8 @@
+org.activiti.workflow.simple.converter
+org.activiti.workflow.simple.converter.json
+org.activiti.workflow.simple.converter.listener
+org.activiti.workflow.simple.converter.step
+org.activiti.workflow.simple.definition
+org.activiti.workflow.simple.definition.form
+org.activiti.workflow.simple.exception
+org.activiti.workflow.simple.util

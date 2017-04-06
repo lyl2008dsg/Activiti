@@ -1,0 +1,2 @@
+127.0.0.1 - - [08/Mar/2017:13:48:26 +0800] "POST /activiti-explorer/ui/UIDL?windowName=1&onunloadburst=1 HTTP/1.1" 200 - http-bio-9010-exec-10 18
+10.0.131.61 - - [08/Mar/2017:19:11:01 +0800] "POST /activiti-explorer/ui/UIDL?windowName=1&onunloadburst=1 HTTP/1.1" 200 - http-bio-9010-exec-13 1
